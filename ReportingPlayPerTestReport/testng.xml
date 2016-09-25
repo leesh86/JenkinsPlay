@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Reporting Suite" parallel="tests">
-	<parameter name="mcm" value="YOUR_CLOUD.perfectomobile.com" />
-	<parameter name="mcmUser" value="USER@perfectomobile.com" />
-	<parameter name="mcmPassword" value="PASSWORD" />
+	<parameter name="mcm" value="demo.perfectomobile.com" />
+	<parameter name="mcmUser" value="lees@perfectomobile.com" />
+	<parameter name="mcmPassword" value="Welcome1702" />
 	<parameter name="browserName" value="mobileOS" />
 
 	<test name="Test Android">
-		<parameter name="deviceName" value="DEVICE" />
+		<parameter name="deviceName" value="5CDDB2F1" />
 		<classes>
 			<class name="ReportingTest" >
 				<methods>
@@ -18,7 +18,7 @@
 	</test> <!-- Test -->
 
 	<test name="Test iOS">
-		<parameter name="deviceName" value="DEVICE" />
+		<parameter name="deviceName" value="B187DA890752D02463279FCA08C63390A76B33DA" />
 		<classes>
 			<class name="ReportingTest" />
 		</classes>
