@@ -3,7 +3,7 @@
 <suite name="Reporting Suite" parallel="tests">
 	<parameter name="mcm" value="demo.perfectomobile.com" />
 	<parameter name="mcmUser" value="lees@perfectomobile.com" />
-	<parameter name="mcmPassword" value="Welcome1702" />
+	<parameter name="mcmPassword" value="Welcome1701" />
 	<parameter name="browserName" value="mobileOS" />
 
 	<test name="Test Android">
