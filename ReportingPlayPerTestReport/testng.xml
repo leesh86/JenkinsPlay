@@ -11,7 +11,7 @@
 		<classes>
 			<class name="ReportingTest" >
 				<methods>
-					<include name="f" />
+					<include name="googleSearch1" />
 				</methods>
 			</class>
 		</classes>
